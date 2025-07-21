@@ -41,7 +41,7 @@ const Categories = () => {
         img : c7
     },
     {
-        name : "Anupama",
+        name : "Toys",
         img : c8
     },
     {
