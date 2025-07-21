@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className='w-[100%] h-[12vh] flex' >
       <div className='w-[25%] h-[100%] flex items-center justify-center'>
-        <img src={logo} className='h-[70%]' alt="" />
+        <img src={logo} className='h-[70%] cursor-pointer' alt="" />
       </div>
       <div className='w-[50%] h-[100%] flex items-center justify-center'>
         <div className='w-[100%] flex h-[50%] bg-[#F0F5FF] rounded-sm'>

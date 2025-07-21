@@ -13,23 +13,23 @@ import c9 from '../assets/Category/9.jpg';
 const Categories = () => {
   let categoryArr = [
     {
-        name : "Kilos",
+        name : "Mobiles",
         img : c1
     },
     {
-        name : "Mobiles",
+        name : "Home & Kitchen",
         img : c2
     },
     {
-        name : "Fasion",
+        name : "Electronics",
         img : c3
     },
     {
-        name : "Electronics",
+        name : "Flight Booking",
         img : c4
     },
     {
-        name : "Furniture",
+        name : "Fasion",
         img : c5
     },
     {
@@ -37,7 +37,7 @@ const Categories = () => {
         img : c6
     },
     {
-        name : "Flight Booking",
+        name : "Decorations",
         img : c7
     },
     {
@@ -51,13 +51,13 @@ const Categories = () => {
 ]
   return (
     <div className='w-[100%] h-[30vh] p-[10px] bg-[#f1f2f4]'>
-      <div className='w-[100%] h-[100%] bg-white flex'>
+      <div className='w-[100%] h-[100%] cursor-pointer  bg-white flex gap-2'>
         {
           categoryArr.map((obj) => {
             return(<CatCart name={obj.name} img={obj.img} />)
           })
         }
-        <CatCart name= {"Kiols"} img={c1}/>
+
       
       </div>
     </div>
